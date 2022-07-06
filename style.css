@@ -1,6 +1,15 @@
 body {
-  border: 0;
+  margin: 0;
 }
 .intro {
-  background-image: url(/images/bannerBg.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("./images/bannerBg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 550px;
+  width: 100%;
 }
