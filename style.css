@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Gentium Book Plus", serif;
 }
 
 /* intro section */
@@ -41,6 +42,7 @@ body {
 .donate {
   margin: 100px;
   text-align: center;
+  padding-bottom: 20px;
 }
 .donate h1 {
   font-size: 40px;
@@ -51,8 +53,26 @@ body {
 .donate .box {
   display: inline-block;
   font-size: 30px;
-  padding: 20px 40px;
-  border: solid grey 4px;
+  padding: 15px 40px;
+  border: 4px solid grey;
   border-radius: 5px;
   margin: 10px 10px;
+}
+#box-two {
+  background-color: rgba(244, 182, 182, 0.836);
+  color: tomato;
+  border-color: tomato;
+}
+.donate input {
+  padding: 10px 200px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.donate .orange-btn {
+  color: white;
+  background-color: tomato;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 10px;
 }
