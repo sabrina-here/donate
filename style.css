@@ -113,6 +113,33 @@ body {
   display: inline-block;
 }
 
+/* my-creative */
+.my-creative {
+  text-align: center;
+  margin-top: 10px;
+}
+.my-creative h1 {
+  font-size: 40px;
+}
+.my-creative p {
+  color: gray;
+}
+.my-creative image {
+  display: inline-block;
+  margin: 50px;
+}
+.my-creative a {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 200px;
+  margin-left: 515px;
+  color: white;
+}
+
 /* update section */
 .update {
   text-align: center;
