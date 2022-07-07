@@ -68,6 +68,7 @@ body {
   margin-top: 20px;
   border: none;
   border-bottom: 2px solid grey;
+  text-align: center;
 }
 .donate .orange-btn {
   color: white;
@@ -77,7 +78,37 @@ body {
   margin-top: 10px;
 }
 
+/* update section */
+.update {
+  text-align: center;
+}
+.update h1 {
+  font-size: 40px;
+}
+.update p {
+  color: gray;
+}
+.update form {
+  background-color: bisque;
+  margin: 50px 200px;
+  padding: 50px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
 /* footer section */
 footer {
   background-color: black;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+footer .humble {
+  color: tomato;
+  font-size: 30px;
+  padding-top: 45px;
+}
+footer p {
+  color: grey;
+  font-size: 12px;
 }
