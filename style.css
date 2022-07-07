@@ -78,6 +78,41 @@ body {
   margin-top: 10px;
 }
 
+/* d-plan section */
+.d-plan {
+  text-align: center;
+}
+.d-plan h1 {
+  font-size: 40px;
+}
+.d-plan p {
+  color: gray;
+}
+.d-plan .box {
+  display: inline-block;
+  width: 300px;
+  height: 270px;
+  border-radius: 5px;
+  margin: 8px;
+  padding-top: 10px;
+}
+.d-plan .food-box {
+  background-color: bisque;
+}
+.d-plan .shel-box {
+  background-color: #fec8d8;
+}
+.d-plan .edu-box {
+  background-color: #ffca96;
+}
+.d-plan .box image {
+  display: block;
+}
+
+.d-plan div {
+  display: inline-block;
+}
+
 /* update section */
 .update {
   text-align: center;
@@ -85,15 +120,26 @@ body {
 .update h1 {
   font-size: 40px;
 }
-.update p {
-  color: gray;
+.update span {
+  color: white;
+  background-color: tomato;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 0;
 }
-.update form {
+.update .form {
   background-color: bisque;
   margin: 50px 200px;
   padding: 50px;
   border-radius: 5px;
+  font-size: 15px;
+}
+.update .form input {
   display: inline-block;
+  color: grey;
+  padding: 8px 65px 8px 0;
+  text-align: left;
+  margin-right: 0;
 }
 
 /* footer section */
