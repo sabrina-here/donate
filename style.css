@@ -1,6 +1,8 @@
 body {
   margin: 0;
 }
+
+/* intro section */
 .intro {
   background-image: linear-gradient(
       to bottom,
@@ -19,4 +21,38 @@ body {
   text-align: center;
   font-size: 50px;
   padding: 150px 300px;
+  padding-bottom: 0;
+}
+.intro p {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  font-size: 17px;
+  padding: 0px 300px;
+}
+.intro .orange-btn {
+  color: white;
+  background-color: tomato;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* donate section */
+.donate {
+  margin: 100px;
+  text-align: center;
+}
+.donate h1 {
+  font-size: 40px;
+}
+.donate p {
+  color: gray;
+}
+.donate .box {
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px 40px;
+  border: solid grey 4px;
+  border-radius: 5px;
+  margin: 10px 10px;
 }
